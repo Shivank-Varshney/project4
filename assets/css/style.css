@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+body {
+  color: #000000;
+  font-family: sans-serif; }
+
+.gutter {
+  padding: 0;
+  margin: 0; }
+
+/*     Navbar Start    */
+.bg-nav {
+  background-color: #D4E5EF; }
+
+.logo {
+  height: 60px; }
+
+.nav-item {
+  text-transform: uppercase;
+  font-weight: bolder; }
+  .nav-item:hover {
+    background-color: steelblue; }
+
+.nav-link {
+  color: steelblue;
+  padding: 10px 15px !important; }
+  .nav-link:hover {
+    color: #ffffff; }
+
+/*     Navbar End    */
+/*  Header Start  */
+.header {
+  font-weight: bolder; }
+
+/*  Header End   */
+/*  Card Start  */
+.card {
+  background-color: #D4E5EF; }
+
+/*  Card End   */
+/*  SignIn Start  */
+.signIn {
+  background-image: linear-gradient(to right, rgba(0, 0, 255, 0.9), rgba(0, 0, 255, 0.1)), url("../img/login bg blurry-01.png");
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100vh; }
+
+.form-control {
+  border: none;
+  border-bottom: 2px solid #3A3BC7; }
+
+.btn-continue {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #3A3BC7;
+  color: #ffffff;
+  border: none;
+  padding: 2px 50px;
+  border-radius: 5px; }
+
+/*  SignIn End   */
+/*  SignUp Start  */
+.signUp {
+  background-image: linear-gradient(to right, rgba(0, 0, 255, 0.9), rgba(0, 0, 255, 0.1)), url("../img/registration bg blurry-01.png");
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100vh; }
+
+/*  SignIn End   */
+/*  Copyright Start  */
+.copyright {
+  background-color: #D4E5EF;
+  text-align: center;
+  font-weight: bolder;
+  padding: 30px 0; }
+
+/*  Copyright End   */
+
+/*# sourceMappingURL=style.css.map */
